@@ -1,4 +1,77 @@
-html {
-  height: 100%;
-  width: 100%;
+/* Estrutura do site */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: "Trebuche MS", Helvetica, sans-serif;
+   background: #fff url(/imagens/fundo.png) repeat-x;
+}
+
+#container {
+   width: 750px;
+   margin: 0 auto;
+   /* border: 1px solid red; */
+}
+
+#topo {
+   height: 150px;
+   background: url(/imagens/detalhe-topo.png) no-repeat right top;
+   /* border: 1px solid red; */
+   padding-top: 25px;
+}
+
+.logo {
+   width: 152px;
+   height: 66px;
+   background: url(/imagens/logo.png) no-repeat center;
+   text-indent: -5000px;
+}
+
+/* Barra de navegação */
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+#topo ul {
+   margin-top: 30px;
+   background: #b10333;
+   float: left;
+}
+
+#topo ul li {
+   float: left;
+}
+
+#topo ul a {
+   font-size: 0.9em;
+   display: block;
+   color: #fff;
+   text-decoration: none;
+   padding: 5px 20px;
+   line-height: 30px;
+   background: url(/imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+   background: none;
+}
+
+#topo ul a:hover {
+   color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotor
+{
+   color: #fff;
+   background: #de003e;
+   cursor: text;
+   
 }
