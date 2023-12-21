@@ -98,21 +98,18 @@ Configura layout de três colunas
 #tres-colunas #primario {
    width: 270px;
    float: left;
-   background: blue;
    margin: 0 0 20px 195px;
 }
 
 #duas-colunas #primario {
    width: 555px;
    float: left;
-   background: blue;
    margin: 0 0 20px 195px;
 }
 
 #uma-coluna #primario {
    width: 750px;
    float: left;
-   background: blue;
    margin: 0 0 20px 0;
 }
 
@@ -120,7 +117,6 @@ Configura layout de três colunas
    width: 270px;
    float: left;
    margin: 0 0 20px 15px;
-   background: green;
 }
 
 /* Caixa */
@@ -181,6 +177,31 @@ input.submit{
    background-color:#b10333;
    border: 2px solid #870529;
 }
+
+/* Formatando imagens */
+
+img.imagem-principal{
+   width: 98%;
+   border: 3px solid #dfdfdf;
+}
+
+/* Formatando cabeçalhos */
+h3{
+   text-transform: uppercase;
+   display: inline;
+   font-size: 0.8em;
+   padding: 3px;
+}
+
+.destaque h3{
+   background-color:#b10333;
+   color: #fff;
+}
+
+.entrevista h3{
+   background: #de003e;
+}
+
 
 /* Rodape */
 #container-rodape {
